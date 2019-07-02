@@ -9,8 +9,6 @@ class Shoe
     @brand = brand
     BRANDS << brand 
     
-    BRANDS
-    
     BRANDS.uniq.each do |brand|
       Show.new(brand)
       BRANDS << brand 
