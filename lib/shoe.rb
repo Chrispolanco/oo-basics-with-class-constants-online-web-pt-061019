@@ -10,7 +10,7 @@ class Shoe
     array << brand 
     
     array.uniq.each do |brand|
-      
+      Show.new(brand)
   end
 
   def cobble
