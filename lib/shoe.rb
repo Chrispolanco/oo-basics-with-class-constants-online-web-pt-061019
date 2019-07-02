@@ -7,8 +7,9 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    array << brand 
+    BRANDS << brand 
     
+    BRANDS.clear 
     array.uniq.each do |brand|
       Show.new(brand)
       BRANDS << brand 
