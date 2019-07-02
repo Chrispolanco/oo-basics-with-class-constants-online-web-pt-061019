@@ -9,7 +9,8 @@ class Shoe
     @brand = brand
     array << brand 
     
-    
+    array.uniq.each do |brand|
+      
   end
 
   def cobble
