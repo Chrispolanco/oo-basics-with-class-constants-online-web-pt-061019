@@ -11,7 +11,7 @@ class Shoe
     
     BRANDS
     
-    Brands.uniq.each do |brand|
+    BRANDS.uniq.each do |brand|
       Show.new(brand)
       BRANDS << brand 
     end 
