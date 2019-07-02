@@ -9,9 +9,9 @@ class Shoe
     @brand = brand
     BRANDS << brand 
     
-    array << BRANDS.clear  
+    BRANDS
     
-    array.uniq.each do |brand|
+    Brands.uniq.each do |brand|
       Show.new(brand)
       BRANDS << brand 
     end 
